@@ -1,0 +1,119 @@
+/************************************************HTML****************************************************/
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3rem;
+  color: #2B7A0B;
+}
+h2 {
+  margin-top: 2px;
+  color: #5BB318;
+  font-size: 2rem;
+}
+h3 {
+  color: #7DCE13;
+  margin: 40px auto;
+}
+p {
+  color: #2C3333;
+  line-height: 2;
+  margin: 50px auto;
+  width: 35rem;
+}
+hr {
+  border-style: dotted;
+  color: #A8A4CE;
+  border-top: none;
+  width: 5%;
+  border-width: 5px;
+  margin: 100px auto;
+}
+a {
+  text-decoration: none;
+  margin: 20px 20px;
+}
+/************************************************CLASS***************************************************/
+.top {
+  background-color: #F0EBE3;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.stardew-logo {
+  width: 400px;
+  height: 150px;
+  position: relative;
+  margin: 0 auto 40px auto;
+  top: 1px;
+}
+.left-tree {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+}
+.tower {
+  position: absolute;
+  height: 300px;
+  width: 100px;
+  bottom: 150px;
+  right: 300px;
+}
+.intro {
+  margin: 50px auto 0 auto;
+  width: 35rem;
+}
+.row  {
+  width: 50%;
+  margin: 100px auto;
+}
+.chicken {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.crop {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.bottom {
+  background-color: #7DCE13;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.btn {
+  background: #00b7ff;
+  background-image: -webkit-linear-gradient(top, #00b7ff, #00ff95);
+  background-image: -moz-linear-gradient(top, #00b7ff, #00ff95);
+  background-image: -ms-linear-gradient(top, #00b7ff, #00ff95);
+  background-image: -o-linear-gradient(top, #00b7ff, #00ff95);
+  background-image: linear-gradient(to bottom, #00b7ff, #00ff95);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #005eff;
+  background-image: -webkit-linear-gradient(top, #005eff, #00c8ff);
+  background-image: -moz-linear-gradient(top, #005eff, #00c8ff);
+  background-image: -ms-linear-gradient(top, #005eff, #00c8ff);
+  background-image: -o-linear-gradient(top, #005eff, #00c8ff);
+  background-image: linear-gradient(to bottom, #005eff, #00c8ff);
+  text-decoration: none;
+}
+.ending {
+  margin-bottom: 5px;
+  color: white;
+}
